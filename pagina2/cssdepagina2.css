@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+    background-image: url(fondo_estrellado.jpg);
+}
+.superviviente {
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    position: relative;
+}
+
+
+.contenido-transparente {
+    background-color: rgba(3, 1, 1, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+h2 {
+    text-align: center;
+    color: #59e80c;
+    margin-bottom: 20px;
+}
+.gif_container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.gif_container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+ @keyframes rainbow {
+    0% { color: rgb(246, 39, 39); }
+    20% { color: rgb(0, 255, 21); }
+    40% { color: green; }
+    60% { color: yellow; }
+    80% { color: blue; }
+    100% { color: purple; }
+}
+
+.patito {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    animation: rainbow 3s infinite;
+}
+
+
+hr {
+    border: none; 
+    height: 4px; 
+    background-color: rgb(16, 215, 16); 
+    width: auto; 
+    margin: 20px auto; 
+}
+
+
+
+
+
+
+.perfil-novia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    padding: 40px 0;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.foto-novia img {
+    max-width: 250px; 
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.texto-novia {
+    flex: 1;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+}
+
+.texto-novia h2 {
+    color: #59e80c;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.photo-collage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .photo-item {
+    position: relative;
+    width: 30%;
+  }
+  .photo-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  .photo-item:hover img {
+    transform: scale(1.1);
+  }
+  .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+  }
+  .photo-item:hover .hover-text {
+    display: block;
+  }
+  
+  
+
+
